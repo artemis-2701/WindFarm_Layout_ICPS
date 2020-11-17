@@ -1,5 +1,4 @@
-% Genetic Algorithm Matlab/Octave Program
-% For the Wind Park Layout Optimization Problem
+
 
 function [bestSoln, bestCost,windspeedmatrix,totalpow]=GA(matrixSize, popsize, iterations, pc, pm, alpha, numOfTurbines)
     global pop popnew fitness fitold N size gridSize windVel rotorRadius crossoverAlpha windSpeedMatrix windSpeed power;
